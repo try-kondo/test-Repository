@@ -1,11 +1,12 @@
 <htmml>
 <body>
 
+入力内容
 <?php
-	echo "name:";
+	echo "名前："
 	echo htmlspecialchars($_GET['name']);
-	echo "<br />";
-	echo "age:";
+
+	echo "年齢"
 	echo htmlspecialchars($_GET['age']);
 
 
